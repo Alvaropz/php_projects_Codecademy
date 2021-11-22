@@ -1,0 +1,20 @@
+<?php
+  $riel = 2103942;
+  $kyat = 19092;
+  $krones = 109;
+  $lek = 9094;
+  echo "We got $riel riels. ";
+  echo "We got $kyat kyat. ";
+  echo "We got $krones krones. ";
+  echo "We got $lek leks.\n";
+  $riel_to_usd = 0.00026;
+  $kyat_to_usd = 0.00066;
+  $krones_to_usd = 0.11;
+  $lek_to_usd = 0.0090;
+  $riel *= $riel_to_usd;
+  $kyat *= $kyat_to_usd;
+  $krones *= $krones_to_usd;
+  $lek *= $lek_to_usd;
+  echo $riel . " dollars from riels, " . $kyat . " dollars from kyat, " . $krones . " dollars from krones, " . $lek . " dollars from lek.\n";
+  $total = $riel + $kyat + $krones + $lek - 4;
+  echo "The total is: " . $total . " dollars.";
