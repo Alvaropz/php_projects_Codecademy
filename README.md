@@ -8,7 +8,7 @@
 
 ## General Info:
 
-These are a series of challenges provided by Codeacademy of its course about PHP where I worked with variables, loops or form validation.
+This is a series of challenges provided by Codeacademy of its course about PHP where I worked with variables, loops or form validation.
 
 ## Technologies:
 
